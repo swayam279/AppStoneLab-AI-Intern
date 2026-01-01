@@ -1,0 +1,2 @@
+This is input file.
+hopefully file handling goes well.
