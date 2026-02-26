@@ -1,0 +1,27 @@
+[project]
+name = "genai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "black>=26.1.0",
+    "chromadb>=1.5.1",
+    "ipykernel>=7.2.0",
+    "langchain>=1.2.10",
+    "langchain-openrouter>=0.0.2",
+    "python-dotenv>=1.2.1",
+    "ruff>=0.15.2",
+]
+
+[tool.black]
+line-length = 88
+target-version = ["py312"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+select = ["E", "F", "I"]
+
+[tool.ruff.lints]
+select = ["E", "F", "I"]
