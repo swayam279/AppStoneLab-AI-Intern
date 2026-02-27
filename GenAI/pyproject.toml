@@ -8,10 +8,15 @@ dependencies = [
     "black>=26.1.0",
     "chromadb>=1.5.1",
     "ipykernel>=7.2.0",
+    "ipywidgets>=8.1.8",
     "langchain>=1.2.10",
+    "langchain-google-genai>=4.2.1",
+    "langchain-mistralai>=1.1.1",
     "langchain-openrouter>=0.0.2",
+    "pillow>=12.1.1",
     "python-dotenv>=1.2.1",
     "ruff>=0.15.2",
+    "tavily>=1.1.0",
 ]
 
 [tool.black]
