@@ -25,6 +25,7 @@ dependencies = [
     "langchain-openrouter>=0.0.2",
     "langchain-text-splitters>=1.1.1",
     "langchain-unstructured>=1.0.1",
+    "langgraph>=1.0.9",
     "pdfminer-six>=20260107",
     "pillow>=12.1.1",
     "pydantic[email]>=2.12.5",
