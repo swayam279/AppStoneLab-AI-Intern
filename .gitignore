@@ -8,3 +8,4 @@ venv
 .venv
 .env
 /GenAI/Langchain/Documents
+GenAI/LangGraph/Chatbot UI/chatbot.db
